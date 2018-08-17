@@ -1,0 +1,19 @@
+# Configuration settings to connect to MuleSoft's training local endpoints
+## Make sure mulesoft-training-services jar file is running first by running terminal command:
+### java -jar mulesoft-training-services-1.x.x.jar
+
+american:
+  host: "localhost"
+  port: "9090"
+  path: "/american/flights"
+
+united:
+  host: "localhost"
+  port: "9090"
+  path: "/united/flights"
+
+delta:
+  wsdl: "http://localhost:9191/delta?wsdl"
+  service: "DeltaFlightsService"
+  port: "DeltaFlightsServiceImplPort"
+  address: "http://localhost:9191/delta"

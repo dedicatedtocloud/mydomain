@@ -1,0 +1,18 @@
+{
+  "configs": [
+    "mule-domain-config.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "mydomain",
+  "minMuleVersion": "4.1.2",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
